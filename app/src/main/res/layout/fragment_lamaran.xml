@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muhyidinamin.upwork.MenuUtama">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/tvJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul" />
+
+        <TextView
+            android:id="@+id/tvBudget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget" />
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Pekerjaan" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etTawaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPermohonan"
+        android:layout_alignStart="@+id/etPermohonan"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="168dp"
+        android:ems="10"
+        android:hint="Tawaran"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPermohonan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etTawaran"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Permohonan"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPermohonan"
+        android:layout_alignStart="@+id/etPermohonan"
+        android:layout_below="@+id/etPermohonan"
+        android:layout_marginTop="22dp"
+        android:text="Submit" />
+
+</RelativeLayout>

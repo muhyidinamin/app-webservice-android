@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_beranda"
+        android:title="Beranda"
+        android:icon="@mipmap/ic_home_black_24dp"/>
+    <item android:id="@+id/nav_post"
+        android:title="Posting Kerja"
+        android:icon="@mipmap/ic_library_add_black_24dp"/>
+    <item android:id="@+id/nav_find"
+        android:title="Cari Kerja"
+        android:icon="@mipmap/ic_find_in_page_black_24dp"/>
+    <item android:id="@+id/nav_proposal"
+        android:title="Proposal"
+       />
+    <item android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@mipmap/ic_person_black_24dp"/>
+    <item android:id="@+id/nav_logout"
+        android:title="Log Out"/>
+</menu>
